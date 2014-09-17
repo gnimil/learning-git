@@ -12,22 +12,40 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0A0F99
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{F8451BEC-0A57-4EB6-97BD-7E07917BD906}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Debug|x64.ActiveCfg = Debug|x64
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Debug|x64.Build.0 = Debug|x64
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Release|x64.ActiveCfg = Release|x64
 		{617B18F3-8C36-4D5A-B6AD-985C4093BF12}.Release|x64.Build.0 = Release|x64
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F8451BEC-0A57-4EB6-97BD-7E07917BD906}.Release|x64.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
